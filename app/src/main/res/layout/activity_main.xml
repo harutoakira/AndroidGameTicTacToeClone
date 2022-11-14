@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tictactoe" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnComputer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="Chơi với máy"
+        android:textAllCaps="false"
+        android:background="@drawable/single_player_back"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOffline"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/offline_player_back"
+        android:text="Chơi Offline 2 người"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOnline"
+        android:background="@drawable/multi_player_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:text="Chơi Online 2 người"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>
